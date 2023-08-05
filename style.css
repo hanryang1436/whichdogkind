@@ -114,3 +114,32 @@ body {
   border: 0;
   transition: all .2s ease;
 }
+
+.bar-container {
+  height: 2.7rem;
+}
+
+.label {
+  width: 20%;
+  text-align: left;
+  height: 2rem;
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(92, 84, 204, 0.2);
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(84, 92, 204);
+}
