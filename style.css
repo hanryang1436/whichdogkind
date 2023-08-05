@@ -1,7 +1,30 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Jua', sans-serif;
   background-color: #eeeeee;
+  box-sizing: border-box;
 }
+
+.result-message {
+  font-size: 2rem;
+}
+.navbar-light .navbar-brand {
+  line-height: 1.68;
+  text-align: left;
+  color: #003d8d; 
+}
+
+.title {
+  line-height: 1.67;
+  text-align: center;
+  color: #0a3061;
+}
+
+.subtitle {
+  line-height: 1.53;
+  text-align: center;
+  color: #0a3061;
+}
+
 
 .file-upload {
   background-color: #ffffff;
