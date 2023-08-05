@@ -27,10 +27,11 @@ body {
 
 
 .file-upload {
-  background-color: #ffffff;
-  width: 600px;
+  padding: 15% 3%;
   margin: 0 auto;
-  padding: 20px;
+  border-radius: 10px;
+  border: solid 1.5px #f6f7fa;
+  background-color: #f6f7fa;
 }
 
 .file-upload-btn {
@@ -77,10 +78,15 @@ body {
 }
 
 .image-upload-wrap {
-  margin-top: 20px;
-  border: 4px dashed #5e68fa;
+  width: 60%;
+  margin: 0 auto;
   position: relative;
+  object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #5e68fa;
+  background-color: #ffffff;
 }
+
 
 .image-dropping,
 .image-upload-wrap:hover {
@@ -105,11 +111,12 @@ body {
 }
 
 .file-upload-image {
-  max-height: 200px;
-  max-width: 200px;
+  max-height: 60%;
+  max-width: 60%;
   margin: auto;
-  padding: 20px;
+  padding: 10px;
 }
+
 
 .remove-image {
   width: 200px;
