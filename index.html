@@ -143,7 +143,7 @@
             // More API functions here:
             // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/image
             // the link to your model provided by Teachable Machine export panel
-            const URL = "https://teachablemachine.withgoogle.com/models/v4B_cSpac/";
+            const URL = "https://teachablemachine.withgoogle.com/models/seF3PKSjc/";
             let model, webcam, labelContainer, maxPredictions;
             // Load the image model and setup the webcam
             async function init() {
@@ -202,6 +202,12 @@
                     case "푸들":
                         resultMessage = "세련된 매력을 가진 푸들의 기운이 강하게 느껴집니다!";
                         break;
+                    case "비숑 프리제":
+                        resultMessage = "귀여움과 사랑스러움이 샘솟는 비숑 프리제의 기운이 강하게 느껴집니다!";
+                        break;
+                    case "꼬똥 드 툴레아":
+                        resultMessage = "귀여운 외모와 영리한 두뇌, 뛰어난 호기심을 가진 꼬똥 드 툴레아의 기운이 강하게 느껴집니다!";
+                        break;
                     default:
                         resultMessage = "판단하기 오묘한 매력이 느껴집니다!"
                 }
@@ -249,6 +255,12 @@
                             break;
                         case "푸들":
                             labelTitle = "푸들";
+                            break;
+                        case "비숑 프리제":
+                            labelTitle = "비숑 프리제";
+                            break;
+                        case "꼬똥 드 툴레아":
+                            labelTitle = "꼬똥 드 툴레아";
                             break;
                         default:
                             labelTitle = "오묘!"
